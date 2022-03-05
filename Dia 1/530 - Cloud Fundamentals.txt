@@ -1,0 +1,25 @@
+530 - Cloud Fundamentals
+
+# Aula 1-1 - Introdução a Cloud Computing
+
+Revisão
+Nuvem Pública: Amazon Web Services, Google Cloud Platform, Microsoft Azure.
+Nuvem Privada: OpenStack
+Nuvem Híbrida: OpenStack com Amazon Web Services/Google Cloud Platform/Microsoft Azure.
+
+# Aula 1-2 - Casos de uso e benefícios da Cloud Computing
+
+Revisão
+Casos de uso: Saúde, Finanças e Games.
+Benefícios: Agilidade, Redução de custos, Dimencionamento, Tecnologias já prontas.
+
+# Aula 1-3 - Conceitos sobre IaaS, PaaS, SaaS, e IaC
+
+Revisão
+IaaS - Infraestrutura como Serviço
+PaaS - Plataforma como Serviço
+SaaS - Software como Serviço
+IaC - Infraestrutura como Código
+
+# Teste de Conhecimento - Aula 01
+A sua nota final neste questionário é 10,00/10,00
