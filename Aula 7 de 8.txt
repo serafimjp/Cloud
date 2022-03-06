@@ -1,0 +1,14 @@
+530 - Cloud Fundamentals
+
+Aula 7.1 - Instalar o Docker na instância da AWS
+Revisão
+>
+
+Aula 7.2 - Executar container de banco de dados MySQL na instância da AWS
+Revisão
+>
+
+Aula 7.3 - Executar container Wordpress na instância da GCP
+
+Teste de Conhecimento - Aula 07
+>
