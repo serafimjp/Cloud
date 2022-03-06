@@ -1,14 +1,9 @@
 530 - Cloud Fundamentals
 
 Aula 6.1 - Acessar instância via RDP no Windows
-Revisão
->
-
 Aula 6.2 - Acessar instância via RDP no Mac OS X
-Revisão
->
-
 Aula 6.3 - Acessar instância via RDP no Linux
+
 Revisão
 >
 

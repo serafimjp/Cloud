@@ -1,18 +1,10 @@
 530 - Cloud Fundamentals
 
 Aula 2.1 - Introdução a Cloud Provider
-Revisão
->
-
 Aula 2.2 - Criar conta gratuita na Amazon Web Services
-Revisão
->
-
 Aula 2.3 - Criar conta gratuita na Google Cloud Platform
-Revisão
->
-
 Aula 2.4 - Criar conta gratuita na Microsoft Azure Cloud
+
 Revisão
 >
 

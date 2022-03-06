@@ -1,18 +1,10 @@
 530 - Cloud Fundamentals
 
 Aula 3.1 - Introdução a instâncias na Cloud, Regiões e Zonas
-Revisão
->
-
 Aula 3.2 - Criar instância na Amazon Web Services
-Revisão
->
-
 Aula 3.3 - Criar instância na Google Cloud Platform
-Revisão
->
-
 Aula 3.4 - Criar instância na Microsoft Azure
+
 Revisão
 >
 

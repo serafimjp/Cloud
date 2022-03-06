@@ -1,16 +1,8 @@
 530 - Cloud Fundamentals
 
 Aula 5.1 - Acessar instância na GCP via navegador
-Revisão
->
-
 Aula 5.2 - Acessar instância via SSH no Linux, Mac OS X e Windows
-Revisão
->
-
 Aula 5.3 - Criar par de chaves SSH e acessar instância através do Putty
-Revisão
->
 
 Revisão
 >
