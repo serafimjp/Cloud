@@ -18,4 +18,4 @@ IaC - Infraestrutura como Código
 
 Teste de Conhecimento - Aula 01
 
-A sua nota final neste questionário é 10,00/10,00
+10,00 de um máximo de 10,00(100%)
