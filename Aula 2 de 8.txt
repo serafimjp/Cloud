@@ -7,12 +7,9 @@ Aula 2.4 - Criar conta gratuita na Microsoft Azure Cloud
 
 Revisão
 
-Local de serviços sob demanda.
-Cloud Pública, Privada, Híbrida.
-AWS lançada em 2006, GCP lançada em abril de 2008, Azure lançada em janeiro de 2010.
-Cadastro conta AWS.
-Cadastro conta GCP.
-Cadastro conta Azure.
+Local de serviços sob demanda para Cloud Pública, Privada, Híbrida.
+AWS lançada em 2006, GCP lançada 2008, Azure lançada em 2010.
+Cadastro contas AWS, GCP e Azure.
 
 Teste de Conhecimento - Aula 02
 
