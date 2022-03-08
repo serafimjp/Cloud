@@ -6,7 +6,17 @@ Aula 3.3 - Criar instância na Google Cloud Platform
 Aula 3.4 - Criar instância na Microsoft Azure
 
 Revisão
->
+
+Uma instância é uma máquina virtual que está sendo executada em um provedor de nuvem, como, por exemplo, na AWS, Azure e GCP. Essas instâncias têm como função executar aplicações, como um servidor de banco de dados, e-mail, web, entre outros.
+
+Antes de gerenciar instâncias na GCP, é necessário ativar o Computer Engine API. O Google Compute Engine é um serviço que fornece máquinas virtuais executadas na infraestrutura do Google. O serviço permite aos usuários lançar grandes clusters de computação na infraestrutura do Google.
+
+Regiões são as localizações geográficas dos data centers em nuvem. Diferentes regiões oferecem diferentes qualidades de serviço em termos de latência, portfólios de soluções e custos.
+
+Acesso ao painel AWS - criação, configuração e execução de uma instância (Linux).
+Acesso ao painel GCP - criação, configuração e execução de uma instância (Container para aplicação web - HTTP/HTTPS).
+Acesso ao painel Azure - criação, configuração e execução de uma instância (Windows client).
 
 Teste de Conhecimento - Aula 03
-> 
+
+10,00 de um máximo de 10,00(100%)
