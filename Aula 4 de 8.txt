@@ -5,7 +5,33 @@ Aula 4.2 - Acessar instância via SSH no Linux, Mac OS X e Windows
 Aula 4.3 - Acessar instância via SSH no Windows via Putty
 
 Revisão
->
+
+Acessar e conectar uma instância via navegador.
+Download da chave.
+Acessar e conectar uma instância via SSH.
+
+
+-- SSH Linux/macOS (Terminal)
+Acessar a pasta com a chave.
+chmod 400 530-Cloud-Fundamentals.pem
+
+O comando **chmod** (significa change mode - alterar modo) permite alterar permissões de acesso de objetos do sistema como arquivos e diretórios. O valor 400 indica que o dono possui apenas permissão de leitura, enquanto o grupo e outros que não pertencem ao grupo não possuem nenhum tipo de acesso.
+
+ssh -i "530-Cloud-Fundamentals.pem" ec2-user@DNS Público
+
+O comando ssh (secure shell) utiliza o protocolo SSH, que permite se conectar a um servidor remoto pela internet, de maneira segura. A flag -i é usada para indicar o uso de chave privada durante a conexão.
+
+-- Windows PowerShell
+Acessar a pasta com a chave.
+ssh -i .\530-Cloud-Fundamentals.pem ec2-user@IP Público
+
+-- PuTTY
+Importar/Exportar/Importar a chave.
+
+O primeiro passo é abrir o programa **PuTTY Key Generator** e clicar no botão **LOAD**. Em seguida, acessar o diretório onde o arquivo de chave privada está **armazenado**. E por último, exportar a chave privada através do botão **Save private Key**.
+
+Inserir usuário e IP ou DNS Público.
 
 Teste de Conhecimento - Aula 04
->
+
+10,00 de um máximo de 10,00(100%)
