@@ -5,7 +5,21 @@ Aula 5.2 - Acessar instância via SSH no Linux, Mac OS X e Windows
 Aula 5.3 - Criar par de chaves SSH e acessar instância através do Putty
 
 Revisão
->
+
+SSH via Terminal
+
+-- Criar chave
+
+Antes de realizar o acesso, é necessário criar um par de chaves SSH. Abra um terminal em seu sistema operacional e execute o comando **ssh-keygen**. Em seguida, visualize o conteúdo da chave pública, através do comando **cat**. Acesse o painel da GCP para gerenciar chaves SSH.
+
+ssh-keygen -t rsa -f .ssh/chave-gcp -C email@gmail.com
+
+-- Acesso
+
+O primeiro passo é abrir o programa **PuTTY Key Generator** e clique no botão **Generate**, para gerar um par de chaves SSH. Confirme que a chave pública SSH foi criada corretamente, e salve a mesma através do botão **Save public key**.
+
+ssh -i .ssh/chave-gcp usuário@IP Externo
 
 Teste de Conhecimento - Aula 05
->
+
+10,00 de um máximo de 10,00(100%)
