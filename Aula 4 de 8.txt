@@ -10,7 +10,6 @@ Acessar e conectar uma instância via navegador.
 Download da chave.
 Acessar e conectar uma instância via SSH.
 
-
 -- SSH Linux/macOS (Terminal)
 Acessar a pasta com a chave.
 chmod 400 530-Cloud-Fundamentals.pem
