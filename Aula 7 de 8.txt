@@ -72,6 +72,8 @@ http://IP externo/wp-admin/install.php
 
 Configurar idioma, usuário e senha.
 
+Para implementar aplicações Multicloud, é necessário que a porta do serviço que a aplicação está executando seja liberada no Firewall. Nas Clouds AWS, GCP e Azure, isso é possível durante e após a criação da instância.
+
 Teste de Conhecimento - Aula 07
 
 10,00 de um máximo de 10,00(100%)

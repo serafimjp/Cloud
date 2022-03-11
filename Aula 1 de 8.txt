@@ -16,6 +16,16 @@ PaaS - Plataforma como Serviço
 SaaS - Software como Serviço
 IaC - Infraestrutura como Código
 
+A  computação em nuvem libera as empresas do gerenciamento da infraestrutura de data centers, permitindo que elas possam se concentrar mais nas entregas aos seus clientes.
+
+Uma nuvem privada pertence à uma organização que pode estabelecer seus próprios serviços em um determinado data center. Este modelo de nuvem está disponível somente para os colaboradores de uma determinada organização.
+
+O modelo Plataforma como Serviço já possui um conjunto de ferramentas necessárias para desenvolver e gerenciar sua aplicações, com a conveniência de não precisar instalar ou gerenciar nada.
+
+OpenStack é um sistema operacional em nuvem que controla grandes pools de recursos de computação, armazenamento e rede em um data center, todos gerenciados e provisionados por meio de APIs com mecanismos de autenticação comuns.
+
+Uma nuvem pública fornece serviços através de provedores pela internet. Este modelo de nuvem está disponível para qualquer pessoa de forma gratuita por um tempo para testes, ou de forma paga através de um contrato de uso.
+
 Teste de Conhecimento - Aula 01
 
 10,00 de um máximo de 10,00(100%)

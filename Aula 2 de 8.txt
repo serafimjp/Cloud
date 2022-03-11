@@ -11,6 +11,16 @@ Local de serviços sob demanda para Cloud Pública, Privada, Híbrida.
 AWS lançada em 2006, GCP lançada 2008, Azure lançada em 2010.
 Cadastro contas AWS, GCP e Azure.
 
+O Microsoft Azure entrou em produção em 1 de janeiro de 2010 e sua fase comercial está no ar desde 1 de fevereiro de 2010. Na primeira onda de lançamentos, 21 países foram atendidos.
+
+Em abril de 2008, o Google anunciou o App Engine, uma plataforma para desenvolver e hospedar aplicativos da web em data centers gerenciados pelo Google, que foi o primeiro serviço de computação em nuvem da empresa. O serviço tornou-se disponível em novembro de 2011. Desde o anúncio do App Engine, o Google adicionou vários serviços em nuvem à plataforma.
+
+Os serviços mais conhecidos são o Amazon Elastic Compute Cloud e o Amazon S3. O Amazon Simple Storage Service (Amazon S3) é um serviço de armazenamento de objetos que oferece escalabilidade, disponibilidade de dados, segurança e performance líderes do setor.
+
+A IaC é o processo de gerenciamento de data centers e provisionamento instâncias/servidores usando arquivos de configuração, ao invés de configurações manuais ou ferramentas de configuração interativas.
+
+De acordo com o Gartner Magic Quadrant, a AWS lidera como a escolha de muitas empresas quando se trata de infraestrutura como serviço, e em seguida vem a nuvem da Microsoft e do Google.
+
 Teste de Conhecimento - Aula 02
 
 10,00 de um máximo de 10,00(100%)

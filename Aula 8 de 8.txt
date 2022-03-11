@@ -5,4 +5,20 @@ Aula 8.2 - Remover instância na Google Cloud Platform
 Aula 8.3 - Remover instância na Microsoft Azure
 
 Revisão
->
+
+-- AWS
+
+Desassociar e Liberar endereços IP elásticos.
+Encerrar instância.
+
+-- GCP
+
+Excluir instância.
+Verificar se o Disco também foi removido/excluído.
+Verificar se o Endereço IP externo liberado/excluído.
+
+-- Azure
+
+Parar instância.
+Excluir instância.
+Excluir recursos.
