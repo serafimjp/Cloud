@@ -5,7 +5,14 @@ Aula 6.2 - Acessar instância via RDP no Mac OS X
 Aula 6.3 - Acessar instância via RDP no Linux
 
 Revisão
->
+
+Conectar a instância RDP via navegador.
+Baixar o arquivo RDP.
+Abrir o arquivo RDP via client de conexão de área de trabalho remota.
+Digitar usuário e senha.
+
+O Windows **Remote Desktop Protocol** (ou somente RDP) é um protocolo multicanal que permite que um usuário se conecte a um computador rodando o Microsoft Terminal Services (antigo Terminal Service) para um acesso remoto. O Terminal Server e o RDP abrem a **porta 3389**, tornando pública a conexão na área de trabalho remota e permitindo o acesso entre dois computadores através de uma rede local ou da internet.
 
 Teste de Conhecimento - Aula 06
->
+
+10,00 de um máximo de 10,00(100%)

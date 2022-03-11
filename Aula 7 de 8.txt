@@ -5,7 +5,73 @@ Aula 7.2 - Executar container de banco de dados MySQL na instância da AWS
 Aula 7.3 - Executar container Wordpress na instância da GCP
 
 Revisão
->
+
+-- AWS
+
+Docker para criar ambientes isolados a partir de contêineres.
+
+O Docker foi escrito em Go, que é uma linguagem de programação desenvolvida pela Google. É muito utilizado em ambiente DevOps, pois permite a execução de aplicações distribuídas em containers. Um container é uma instância de tempo de execução de uma imagem Docker. Quando executamos um container, é criada uma área restrita que contém a aplicação e suas dependências, como arquivos de configurações, binários e bibliotecas.
+
+sudo yum install docker -y
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo systemctl status docker
+sudo docker container ls
+sudo docker image ls
+sudo docker network ls
+
+Adicionar o IP Público Fixo 
+
+sudo docker container run -d -e 'MYSQL_ROOT_PASSWORD=4linux' -v "$PWD/banco":/var/lib/mysql --name=dbserver -p 0.0.0.0:3306:3306 --restart=always mysql:5.7.22
+
+sudo docker container ls
+
+sudo docker container exec -it dbserver /bin/bash
+
+mysql -u root -p4linux
+
+CREATE DATABASE wordpress;
+
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@'%' IDENTIFIED BY '4linux';
+
+FLUSH PRIVILEGES;
+
+EXIT
+
+EXIT
+
+sudo docker image ls
+
+ls
+
+ls /banco
+
+sudo docker commit dbserver mysql:5.7.22
+
+sudo docker image ls
+
+sudo docker container ls
+
+Adicionar regra MYSQL/Aurora no grupo de segurança.
+
+-- GCP
+
+Alterar/Reservar o Endereços IP externo para Estático
+
+wordpress-webserver
+
+sudo docker image ls
+
+sudo docker container run -d --name=dbserver -e WORDPRESS_DB_HOST=177.71.145.126 -e WORDPRESS_DB_NAME=wordpress -e WORDPRESS_DB_USER=wordpressuser -e WORDPRESS_DB_PASSWORD=4linux -p 0.0.0.0:80:80 --restart=always wordpress:latest
+
+sudo docker container ls
+
+http://IP externo/wp-admin/install.php
+
+-- WordPress
+
+Configurar idioma, usuário e senha.
 
 Teste de Conhecimento - Aula 07
->
+
+10,00 de um máximo de 10,00(100%)
